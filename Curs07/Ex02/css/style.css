@@ -24,6 +24,31 @@ b {
 
 /* tema */
 
+/* 7. Coloreaza albastru elementele cu clasa line din elementele cu clasa odd */
+.odd .line {
+  color: blue;
+}
+
+/* 8. Subliniaza elementele i din elementele cu clasa odd */
+.odd i {
+  text-decoration: underline;
+}
+
+/* 9. Subliniaza elementele b din elementele cu clasa even */
+.even b {
+  text-decoration: underline;
+}
+
+/* 10. Coloreaza turcoaz doar elementele cu clasa line care se afla in elementele cu clasa desc */
+.desc .line {
+  color: turquoise;
+}
+
+/* 11. Coloreaza rosu toate ancorele care au atributul href incepand cu http */
+a[href^='http'] {
+  color: red;
+}
+
 /* 12 */
 a[href$='.com'],
 a[href$='.com/'],

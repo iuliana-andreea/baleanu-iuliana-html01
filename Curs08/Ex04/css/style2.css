@@ -1,0 +1,51 @@
+/* Pozitioneaza elementul nav absolut, astfel incat sa fie in dreapta jos a ecranului, cu un fundal albastru si text maro */
+.nav-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: royalblue;
+}
+
+nav a {
+  color: brown;
+}
+
+/* In fiecare sectiune (pitagora, cerc, patrate) preia cuvantul dedicat fiecarei sectiuni, pozitioneaza-l absolut fata de elementul container, adauga-i fundal gri si o bordura rosie si afiseaza-l pe bordura de sus al containerului (similar cu fieldset)  */
+
+.container {
+  position: relative;
+  border: 1px solid red;
+  padding: 5px;
+}
+
+.container .legend {
+  background-color: gray;
+  border: 1px solid red;
+  padding: 5px;
+  position: absolute;
+  left: 15px;
+  top: -15px;
+}
+
+/* Folosind elemente span, proprietatea font-size si pozitionarea relativa, corecteaza formulele astfel incat acestea sa aibe indicii corecti (similar cu sup) */
+.container .sup {
+  position: relative;
+  font-size: 12px;
+  top: -4px;
+}
+
+/* Creeaza un element nav nou care sa contina linkurile intr-o lista neordonata, si aplica-i un fundal verde. Folosind pozitionarea sticky, pozitioneaza-l in stanga sus, acesta trebuie sa fie mereu in ecran, indiferent de pozitia scrollbarului. */
+.nav-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: green;
+  padding: 5px;
+  z-index: 1;
+}
+
+/* Ajusteaza paddingul elementului body astfel incat elementele de navigatie sa nu incurce citirea */
+body {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}

@@ -38,3 +38,38 @@
   padding-right: 19px;
   background-color: green;
 }
+
+/* Creaza un div cu clasa purple si fundalul mov, bordura de 2 px punctata verde, colturile rotunjite de 40 cu valorile pentru padding */
+.purple {
+  background-color: mediumslateblue;
+  border: 2px dashed mediumseagreen;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-left: 20px;
+  padding-right: 15px;
+}
+
+/* Creaza un div cu clasa turquoise si fundalul turcoaz, bordura albastra de 1px, colturile rotunjite de 15 cu valorile pentru padding */
+.turquoise {
+  background-color: turquoise;
+  border: 1px solid mediumblue;
+  border-radius: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Creaza un div cu clasa transparent, cu bordura rosie de 2px si valorile pentru padding setate la 20 pentru toate partile, si pentru margin */
+.transparent {
+  border: 2px solid firebrick;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}

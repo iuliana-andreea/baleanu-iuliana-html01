@@ -16,3 +16,29 @@ h2 {
   text-shadow: 2px 2px 5px yellow;
   font-weight: normal;
 }
+
+/* 6.Adauga o umbra de 0px 3px 5px verde pe elementele h3 si subliniaza-le cu o linie maro taiata (dotted) */
+
+h3 {
+  text-shadow: 0px 3px 5px green;
+  text-decoration: underline dotted brown;
+}
+
+/* 7. Subliniaza elementele li din listele neordonate si coloreaza textul mov */
+ul li {
+  text-decoration: underline;
+  color: purple;
+}
+
+/* 8. Subliniaza elemente b din paragrafe si coloreaza-le galben */
+p b {
+  text-decoration: underline;
+  color: yellow;
+}
+
+/* 9. Coloreaza elementele i din paragrafe albastru, afiseaza-le bold si taiate */
+p i {
+  color: blue;
+  font-weight: bold;
+  text-decoration: line-through;
+}
