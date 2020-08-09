@@ -4,9 +4,26 @@
 <head>
 
   <title>Stacking Context</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link
+    href="css/style.css"
+    rel="stylesheet"
+  >
 </head>
 
 <body>
+  <div class="box box-green">
+    <div
+      class="blue"
+      style="z-index: 1000000;"
+    ></div>
+    <div class="red"></div>
+  </div>
+
+  <div class="box box-yellow">
+    <div class="blue"></div>
+    <div class="red"></div>
+  </div>
 
 </body>
+
+</html>
