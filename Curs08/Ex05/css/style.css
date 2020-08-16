@@ -36,3 +36,30 @@
   padding: 15px;
   box-shadow: 15px 15px 2px grey;
 }
+
+/* TEMA */
+/* Creaza un div cu clasa purple si fundalul mov, bordura de 2 px punctata (dotted) verde, colturile rotunjite de 40 cu valorile 20 pentru padding si un box shadow de 5px 5px 5px de culoare maro */
+.purple {
+  background-color: mediumslateblue;
+  border: 2px dotted teal;
+  border-radius: 40px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px sienna;
+}
+
+/* Creaza un div cu clasa turquoise si fundalul turcoaz, bordura albastra de 1px, colturile rotunjite de 15, un box shadow de 2px 2px 5px de culoare rosie si urmatoarele valori pentru padding:  */
+.turquoise {
+  background-color: turquoise;
+  border: 1px solid royalblue;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px indianred;
+  padding: 11px 20px;
+}
+
+/* Creaza un div cu clasa transparent, cu bordura rosie de 2px un box shadow de 10px 10px 5px de culoare gri, valorile pentru padding setate la 20 pentru toate partile, si pentru margin */
+.transparent {
+  border: 2px solid firebrick;
+  box-shadow: 10px 10px 5px slategray;
+  padding: 20px;
+  margin: 20px auto;
+}
