@@ -41,3 +41,9 @@ dreapta si roteste-o cu 50 de grade */
 .box-purple {
   transform: translateX(100px) rotate(50deg);
 }
+
+/* TEMA */
+/* Folosind metoda skew(10deg, 10 deg) intinde cutia maro si mut-o cu 5px
+in sus si 10px spre stanga */
+
+/* Folosind metoda scale(1.2) mareste cutia galbena si roteste-o cu -15 grade */
