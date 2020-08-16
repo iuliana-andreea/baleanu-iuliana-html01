@@ -43,3 +43,35 @@ cu 5px pentru 5 secunde */
 .box-green:hover {
   transform: rotate(360deg) scale(1.3);
 }
+
+/* TEMA */
+/* Tranzitioneaza lungimea si latimea cutiei mov pana
+la 100px peste 4 secunde cu functia ease si un delay de o secunda  */
+.box-purple {
+  transition: height 4s ease 1s, width 4s ease 1s;
+}
+
+.box-purple:hover {
+  height: 100px;
+  width: 100px;
+}
+
+/* Roteste cutia maro cu -180 de grade si scaleaza-l cu 0.3
+pentru 4 secunde cu functia ease-in */
+.box-brown {
+  transition: transform 4s ease-in;
+}
+
+.box-brown:hover {
+  transform: rotate(-180deg) scale(0.3);
+}
+
+/* Tranzitioneaza functia transform scale(2) pe o perioada de
+3 secunde cu functia ease-in-out */
+.box-yellow {
+  transition: transform 3s ease-in-out;
+}
+
+.box-yellow:hover {
+  transform: scale(2);
+}

@@ -45,5 +45,11 @@ dreapta si roteste-o cu 50 de grade */
 /* TEMA */
 /* Folosind metoda skew(10deg, 10 deg) intinde cutia maro si mut-o cu 5px
 in sus si 10px spre stanga */
+.box-brown {
+  transform: skew(10deg, 10deg) translate(-10px, -5px);
+}
 
 /* Folosind metoda scale(1.2) mareste cutia galbena si roteste-o cu -15 grade */
+.box-yellow {
+  transform: scale(1.2) rotate(-15deg);
+}

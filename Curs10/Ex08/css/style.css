@@ -2,6 +2,7 @@
 verde atunci cand un checkbox este activat  */
 input[type='checkbox']:checked + label {
   background-color: seagreen;
+  color: black;
 }
 
 /* Pentru grupul radio, coloreaza fundalul elementului label
@@ -15,4 +16,16 @@ cu rosu si textul bold  */
 select option:checked {
   color: tomato;
   font-weight: bold;
+}
+
+/* Pentru checkboxuri coloreaza elementul label roz deschis
+atunci cand checkboxul nu este activat  */
+input[type='checkbox'] + label {
+  color: lightpink;
+}
+
+/* Pentru grupul radio, coloreaza fundalul elementului label roz
+deschis atunci cand nu sunt activate */
+input[type='radio'] + label {
+  background-color: lightpink;
 }

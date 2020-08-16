@@ -24,3 +24,26 @@ p:hover > i {
   transform: translate(2px, -2px);
   display: inline-block;
 }
+
+/* TEMA */
+
+/* Aplica pe ancorele din lista cu clasa .secondary o stare de
+hover in care linia se muta deasupra */
+.secondary a:hover {
+  text-decoration: overline;
+}
+
+/* Aplica pe ancorele impare din lista cu clasa .main o stare de hover
+in care acestea sa se faca verzi iar linia sa dispara complet  */
+.main li:nth-of-type(odd) a:hover {
+  text-decoration: none;
+  color: olivedrab;
+}
+
+/* Aplica pe elementele b din paragafe o stare de hover in care
+acestea devin rosii si se muta cu 2px in sus */
+p:hover > b {
+  color: firebrick;
+  display: inline-block;
+  transform: translate(0, -2px);
+}
